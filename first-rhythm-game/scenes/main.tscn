@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c8xha21epp4mq"]
+
+[ext_resource type="AudioStream" uid="uid://bbdyc05v4bjor" path="res://music/16-Bit Beat Em All _Clement Panchout.wav" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://coro78g2ewvqg" path="res://scenes/conductor.gd" id="2_0wfyh"]
+
+[node name="main" type="Node2D" unique_id=1745299122]
+
+[node name="conductor" type="AudioStreamPlayer2D" parent="." unique_id=1059183837]
+stream = ExtResource("1_o5qli")
+autoplay = true
+script = ExtResource("2_0wfyh")
